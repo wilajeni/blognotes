@@ -5,7 +5,7 @@
     <link>https://wilajeni.github.io/blognotes/</link>
     <description>Recent content in Introduction on wilajeni&#39;s notebook</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate><atom:link href="https://wilajeni.github.io/blognotes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://wilajeni.github.io/blognotes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>With ToC</title>
       <link>https://wilajeni.github.io/blognotes/docs/example/table-of-contents/with-toc/</link>
@@ -48,11 +48,20 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
     </item>
     
     <item>
+      <title>Tidyverse</title>
+      <link>https://wilajeni.github.io/blognotes/docs/example/tidyverse/</link>
+      <pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://wilajeni.github.io/blognotes/docs/example/tidyverse/</guid>
+      <description>#install.packages(&amp;#34;gapminder&amp;#34;) #install.packages(&amp;#34;dplyr&amp;#34;) library(gapminder) library(dplyr) library(ggplot2) Tidyverse # {dplyr} a. Verbs: filter(like subset), arrange(like order), b. mutate, select(choose column), transmute(select and calculate new column), rename(newname=oldname) c. summarize(output 1 row tibble), group_by(make summarize output each row), count(# of specific var) d. glimpse(str() for big tibbles) {ggplot2} a. aesthetic up to 4 dimensions(x,y,color,size) b. layers: geom_point()-x,y, geom_line()-x,y, geom_col()-x,y, geom_histogram(binwidth=,bins=)-x geom_boxplot()-x,y. x is category(# of boxes), y is numerical obs. C. scale_x_log10(), facet_wrap(~year), expand_limits(y=0) Other Packages: forcats, tibble, readr, stringr, tidyr, purrr gapminder ## # A tibble: 1,704 × 6## country continent year lifeExp pop gdpPercap## &amp;lt;fct&amp;gt; &amp;lt;fct&amp;gt; &amp;lt;int&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;int&amp;gt; &amp;lt;dbl&amp;gt;## 1 Afghanistan Asia 1952 28.</description>
+    </item>
+    
+    <item>
       <title>Hello R Markdown</title>
-      <link>https://wilajeni.github.io/blognotes/docs/example/rmarkdown/rmd/</link>
+      <link>https://wilajeni.github.io/blognotes/docs/example/rmd/</link>
       <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
       
-      <guid>https://wilajeni.github.io/blognotes/docs/example/rmarkdown/rmd/</guid>
+      <guid>https://wilajeni.github.io/blognotes/docs/example/rmd/</guid>
       <description>R Markdown # This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
 You can embed an R code chunk like this:
 summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.</description>
