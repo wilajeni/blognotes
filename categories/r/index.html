@@ -1,160 +1,702 @@
 <!DOCTYPE html>
-<html>
-<head><meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>R - wilajeni&#39;s notes</title>
-<meta name="generator" content="Hugo 0.109.0">
-<link href="https://wilajeni.github.io/blognotes//index.xml" rel="alternate" type="application/rss+xml">
-<link rel="canonical" href="https://wilajeni.github.io/blognotes/categories/r/">
-<link rel="stylesheet" href="https://wilajeni.github.io/blognotes/css/theme.min.css">
-<link rel="stylesheet" href="https://wilajeni.github.io/blognotes/css/chroma.min.css">
-<script defer src="https://wilajeni.github.io/blognotes//js/fontawesome6/all.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/jquery.easing@1.4.1/jquery.easing.min.js" integrity="sha256-H3cjtrm/ztDeuhCN9I4yh4iN2Ybx/y1RM7rMmAesA0k=" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js" integrity="sha256-4XodgW4TwIJuDtf+v6vDJ39FVxI0veC/kSCCmnFp7ck=" crossorigin="anonymous"></script>
-<script src="https://wilajeni.github.io/blognotes/js/bundle.js"></script><style>
-:root {--custom-font-color: #F8F8F8;--custom-background-color: #2D96BD;}
-</style>
-<meta property="og:title" content="R" />
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="R" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://wilajeni.github.io/blognotes/categories/r/" /><meta property="og:site_name" content="wilajeni&#39;s notes" />
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="R"/>
-<meta name="twitter:description" content=""/>
-<meta itemprop="name" content="R">
-<meta itemprop="description" content=""></head>
-<body><div class="container"><header>
-<h1>wilajeni&#39;s notes</h1>
-</header>
+<meta property="og:url" content="/categories/R/" />
+<title>R | wilajeni&#39;s notebook</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.a82d7e77ceb134d151c4d7e381eeb30623fbd5a524d58c584d8716ecec0205bd.css" >
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.85c3265ee22a80d918ba0e8a2e0f0a47dac94cacd4146a87c656784472ab6c3c.js" ></script>
+
+  <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" ></script>
+<link rel="alternate" type="application/rss+xml" href="/categories/R/index.xml" title="wilajeni's notebook" />
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>wilajeni&#39;s notebook</span>
+  </a>
+</h2>
 
 
-<div class="content-container">
-<main><h1>R</h1><div class="edit-meta">
-Last updated on 1010-12-912
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
 
 
-<br></div><nav class="pagination"><a class="nav nav-next" href="https://wilajeni.github.io/blognotes/chapter1/" title="Chapter 1">Next - Chapter 1 <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
-</nav><footer><p class="powered">Powered by <a href="https://gohugo.io">Hugo</a>. Theme by <a href="https://themes.gohugo.io/hugo-theme-techdoc/">TechDoc</a>. Designed by <a href="https://github.com/thingsym/hugo-theme-techdoc">Thingsym</a>.</p>
-</footer>
-</main>
-<div class="sidebar">
 
-<nav class="open-menu">
+
+
+
+
+  
 <ul>
-<li class=""><a href="https://wilajeni.github.io/blognotes/">Home</a></li>
-
-<li class=""><a href="https://wilajeni.github.io/blognotes/chapter1/">Chapter 1</a>
   
-<ul class="sub-menu">
-<li class=""><a href="https://wilajeni.github.io/blognotes/chapter1/1/">Chapter 1-1</a></li>
-<li class=""><a href="https://wilajeni.github.io/blognotes/chapter1/2/">Chapter 1-2</a></li>
-<li class=""><a href="https://wilajeni.github.io/blognotes/chapter1/3/">Chapter 1-3</a></li>
-<li class=""><a href="https://wilajeni.github.io/blognotes/chapter1/4/">Chapter 1-4</a></li>
+  <li>
+    <a href="https://wilajeni.github.io/"  target="_blank" rel="noopener">
+        wilajeni&#39;s blog
+      </a>
+  </li>
+  
 </ul>
-  
-</li>
 
-<li class=""><a href="https://wilajeni.github.io/blognotes/chapter2/">Chapter 2 (weighted)</a>
+
+
+
+
+
+
   
-<ul class="sub-menu">
-<li class=""><a href="https://wilajeni.github.io/blognotes/chapter2/3/">Chapter 2-3 (weight: 10)</a></li>
-<li class=""><a href="https://wilajeni.github.io/blognotes/chapter2/4/">Chapter 2-4 (weight: 20)</a></li>
-<li class=""><a href="https://wilajeni.github.io/blognotes/chapter2/2/">Chapter 2-2 (weight: 30)</a></li>
-<li class=""><a href="https://wilajeni.github.io/blognotes/chapter2/1/">Chapter 2-1 (weight: 40)</a></li>
-<li class=""><a href="https://wilajeni.github.io/blognotes/chapter2/5/">Chapter 2-0 (weight: no set)</a></li>
+
+
+
+  
+  <ul>
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a href="/docs/example/" class="">Example Site</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/example/table-of-contents/" class="">Table of Contents</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/example/table-of-contents/with-toc/" class="">With ToC</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/example/table-of-contents/without-toc/" class="">Without ToC</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-4e46b01272d410b3a99461d79326ddf4" class="toggle"  />
+    <label for="section-4e46b01272d410b3a99461d79326ddf4" class="flex justify-between">
+      <a role="button" class="">Collapsed</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/example/collapsed/3rd-level/" class="">3rd Level</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/example/collapsed/3rd-level/4th-level/" class="">4th Level</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/example/rmarkdown/rmd/" class="">Hello R Markdown</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <span>Shortcodes</span>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/shortcodes/buttons/" class="">Buttons</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/shortcodes/columns/" class="">Columns</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/shortcodes/details/" class="">Details</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/shortcodes/expand/" class="">Expand</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/shortcodes/hints/" class="">Hints</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/shortcodes/katex/" class="">Katex</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/shortcodes/mermaid/" class="">Mermaid</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-d3fc1bf6d66cd84b896a0af9f40cb1d5" class="toggle"  />
+    <label for="section-d3fc1bf6d66cd84b896a0af9f40cb1d5" class="flex justify-between">
+      <a href="/docs/shortcodes/section/" class="">Section</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/shortcodes/section/first-page/" class="">First Page</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/shortcodes/section/second-page/" class="">Second Page</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/shortcodes/tabs/" class="">Tabs</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="/posts/"  >
+        Blog
+      </a>
+  </li>
+  
 </ul>
-  
-</li>
-
-<li class=""><a href="https://wilajeni.github.io/blognotes/chapter3/">Chapter 3 (hierarchized)</a>
-  
-<ul class="sub-menu">
-<li class=""><a href="https://wilajeni.github.io/blognotes/chapter3/1/">Chapter 3-1</a></li>
-
-<li class=""><a href="https://wilajeni.github.io/blognotes/chapter3/chapter3-2/">Chapter 3-2</a>
-  
-<ul class="sub-menu">
-<li class=""><a href="https://wilajeni.github.io/blognotes/chapter3/chapter3-2/1/">Chapter 3-2-1</a></li>
-<li class=""><a href="https://wilajeni.github.io/blognotes/chapter3/chapter3-2/2/">Chapter 3-2-2</a></li>
-<li class=""><a href="https://wilajeni.github.io/blognotes/chapter3/chapter3-2/3/">Chapter 3-2-3</a></li>
-<li class=""><a href="https://wilajeni.github.io/blognotes/chapter3/chapter3-2/4/">Chapter 3-2-4</a></li>
-</ul>
-  
-</li>
-<li class=""><a href="https://wilajeni.github.io/blognotes/chapter3/3/">Chapter 3-3</a></li>
-<li class=""><a href="https://wilajeni.github.io/blognotes/chapter3/4/">Chapter 3-4</a></li>
-</ul>
-  
-</li>
-
-<li class=""><a href="https://wilajeni.github.io/blognotes/chapter4/">Chapter 4 (unlimited levels)</a>
-  
-<ul class="sub-menu">
-
-<li class=""><a href="https://wilajeni.github.io/blognotes/chapter4/chapter4-1/">Chapter 4-1</a>
-  
-<ul class="sub-menu">
-
-<li class=""><a href="https://wilajeni.github.io/blognotes/chapter4/chapter4-1/chapter4-1-1/">Chapter 4-1-1</a>
-  
-<ul class="sub-menu">
-
-<li class=""><a href="https://wilajeni.github.io/blognotes/chapter4/chapter4-1/chapter4-1-1/chapter4-1-1-1/">Chapter 4-1-1-1</a>
-  
-<ul class="sub-menu">
-
-<li class=""><a href="https://wilajeni.github.io/blognotes/chapter4/chapter4-1/chapter4-1-1/chapter4-1-1-1/chapter4-1-1-1-1/">Chapter 4-1-1-1-1</a>
-  
-<ul class="sub-menu">
-
-<li class=""><a href="https://wilajeni.github.io/blognotes/chapter4/chapter4-1/chapter4-1-1/chapter4-1-1-1/chapter4-1-1-1-1/chapter4-1-1-1-1-1/">Chapter 4-1-1-1-1-1</a>
-  
-<ul class="sub-menu">
-
-<li class=""><a href="https://wilajeni.github.io/blognotes/chapter4/chapter4-1/chapter4-1-1/chapter4-1-1-1/chapter4-1-1-1-1/chapter4-1-1-1-1-1/chapter4-1-1-1-1-1-1/">Chapter 4-1-1-1-1-1-1</a>
-  
-</li>
-</ul>
-  
-</li>
-</ul>
-  
-</li>
-</ul>
-  
-</li>
-</ul>
-  
-</li>
-</ul>
-  
-</li>
-</ul>
-  
-</li>
 
 
-</ul>
+
+
+
+
 </nav>
 
 
 
-<div class="sidebar-footer"></div>
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>R</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
 </div>
 
-</div><a href="#" id="backtothetop-fixed" class="backtothetop"
- data-backtothetop-duration="600"
- data-backtothetop-easing="easeOutQuart"
- data-backtothetop-fixed-fadeIn="1000"
- data-backtothetop-fixed-fadeOut="1000"
- data-backtothetop-fixed-bottom="10"
- data-backtothetop-fixed-right="20">
-<span class="fa-layers fa-fw">
-<i class="fas fa-circle"></i>
-<i class="fas fa-arrow-circle-up"></i>
-</span></a>
+
+  
+  <aside class="hidden clearfix">
+    
+  <nav>
+  <ul>
+  
+    
+    <li class="book-section-flat">
+      <strong>Categories</strong>
+      <ul>
+      
+        <li class="flex justify-between">
+          <a href="/categories/R/">R</a>
+          <span>1</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/categories/Development/">Development</a>
+          <span>2</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/categories/golang/">golang</a>
+          <span>2</span>
+        </li>
+      
+      </ul>
+    </li>
+    
+  
+    
+    <li class="book-section-flat">
+      <strong>Tags</strong>
+      <ul>
+      
+        <li class="flex justify-between">
+          <a href="/tags/plot/">plot</a>
+          <span>1</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/R-Markdown/">R Markdown</a>
+          <span>1</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/regression/">regression</a>
+          <span>1</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/development/">development</a>
+          <span>2</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/go/">go</a>
+          <span>2</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/golang/">golang</a>
+          <span>2</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/hugo/">hugo</a>
+          <span>1</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/templates/">templates</a>
+          <span>1</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/themes/">themes</a>
+          <span>1</span>
+        </li>
+      
+      </ul>
+    </li>
+    
+  
+  </ul>
+</nav>
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  
+  <article class="markdown book-post">
+    <h2>
+      <a href="/docs/example/rmarkdown/rmd/">Hello R Markdown</a>
+    </h2>
+    
+  <h5>1010-12-912</h5>
+
+
+
+  
+  <div>
+    
+      <a href="/categories/R/">R</a>
+  </div>
+  
+
+  
+  <div>
+    
+      <a href="/tags/R-Markdown/">R Markdown</a>, 
+      <a href="/tags/plot/">plot</a>, 
+      <a href="/tags/regression/">regression</a>
+  </div>
+  
+
+
+
+
+    <p>R Markdown # This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+You can embed an R code chunk like this:
+summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.
+        <a href="/docs/example/rmarkdown/rmd/">...</a>
+      
+    </p>
+  </article>
+  
+
+  
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
 </div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  <nav>
+  <ul>
+  
+    
+    <li class="book-section-flat">
+      <strong>Categories</strong>
+      <ul>
+      
+        <li class="flex justify-between">
+          <a href="/categories/R/">R</a>
+          <span>1</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/categories/Development/">Development</a>
+          <span>2</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/categories/golang/">golang</a>
+          <span>2</span>
+        </li>
+      
+      </ul>
+    </li>
+    
+  
+    
+    <li class="book-section-flat">
+      <strong>Tags</strong>
+      <ul>
+      
+        <li class="flex justify-between">
+          <a href="/tags/plot/">plot</a>
+          <span>1</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/R-Markdown/">R Markdown</a>
+          <span>1</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/regression/">regression</a>
+          <span>1</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/development/">development</a>
+          <span>2</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/go/">go</a>
+          <span>2</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/golang/">golang</a>
+          <span>2</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/hugo/">hugo</a>
+          <span>1</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/templates/">templates</a>
+          <span>1</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/themes/">themes</a>
+          <span>1</span>
+        </li>
+      
+      </ul>
+    </li>
+    
+  
+  </ul>
+</nav>
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
