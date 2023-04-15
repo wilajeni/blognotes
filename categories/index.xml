@@ -2,34 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on wilajeni&#39;s notebook</title>
-    <link>/categories/</link>
+    <link>https://wilajeni.github.io/blognotes/categories/</link>
     <description>Recent content in Categories on wilajeni&#39;s notebook</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate><atom:link href="https://wilajeni.github.io/blognotes/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>R</title>
-      <link>/categories/R/</link>
+      <link>https://wilajeni.github.io/blognotes/categories/R/</link>
       <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
       
-      <guid>/categories/R/</guid>
+      <guid>https://wilajeni.github.io/blognotes/categories/R/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Development</title>
-      <link>/categories/Development/</link>
+      <link>https://wilajeni.github.io/blognotes/categories/Development/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>/categories/Development/</guid>
+      <guid>https://wilajeni.github.io/blognotes/categories/Development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>golang</title>
-      <link>/categories/golang/</link>
+      <link>https://wilajeni.github.io/blognotes/categories/golang/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>/categories/golang/</guid>
+      <guid>https://wilajeni.github.io/blognotes/categories/golang/</guid>
       <description></description>
     </item>
     
