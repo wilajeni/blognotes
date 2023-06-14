@@ -215,5 +215,15 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 Lorem markdownum insigne. Olympo signis Delphis!</description>
     </item>
     
+    <item>
+      <title>Presentation Ninja</title>
+      <link>https://wilajeni.github.io/blognotes/docs/slides/xaringan_sample/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://wilajeni.github.io/blognotes/docs/slides/xaringan_sample/</guid>
+      <description>One slide.
+Another slide.</description>
+    </item>
+    
   </channel>
 </rss>

@@ -9,6 +9,8 @@
   </url><url>
     <loc>https://wilajeni.github.io/blognotes/docs/example/table-of-contents/without-toc/</loc>
   </url><url>
+    <loc>https://wilajeni.github.io/blognotes/docs/slides/</loc>
+  </url><url>
     <loc>https://wilajeni.github.io/blognotes/posts/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url><url>
@@ -111,5 +113,7 @@
     <loc>https://wilajeni.github.io/blognotes/docs/shortcodes/section/second-page/</loc>
   </url><url>
     <loc>https://wilajeni.github.io/blognotes/docs/shortcodes/tabs/</loc>
+  </url><url>
+    <loc>https://wilajeni.github.io/blognotes/docs/slides/xaringan_sample/</loc>
   </url>
 </urlset>
